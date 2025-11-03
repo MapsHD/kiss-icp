@@ -79,7 +79,7 @@ def generate_launch_description():
                 "publish_odom_tf": publish_odom_tf,
                 "invert_odom_tf": invert_odom_tf,
                 # ROS CLI arguments
-                "publish_debug_clouds": visualize,
+                "publish_debug_clouds": True,
                 "use_sim_time": use_sim_time,
                 "position_covariance": position_covariance,
                 "orientation_covariance": orientation_covariance,
